@@ -1,0 +1,1 @@
+F:\Study\Win\Calculator\UWP-Calculator\winuiCalculator.csproj;x86
