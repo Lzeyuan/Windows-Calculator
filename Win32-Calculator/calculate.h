@@ -73,7 +73,7 @@ char judgPower(char ch, char stackTop) {
 		return '=';
 
 	// （ 永远可以入栈
-	if (ch == '(')
+	if (ch == '(' || stackTop == '(')
 		return '>';
 
 	// ） 出栈直到匹配），永远不入栈
